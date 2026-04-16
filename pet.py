@@ -4,6 +4,6 @@ class Pet:
         self.energy_level = energy_level
         
 
-    def feed_pet(self):
-        self.energy_level += 10
-        print(f"{self.name} ate some food! Energy is now {self.energy_level}.")
+    def play_with_pet(self):
+        self.energy_level-= 15
+        print(f"{self.name}played a game! Energy is now {self.energy_level}")
